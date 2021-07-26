@@ -1,0 +1,30 @@
+body {
+    background-image: url('mikhail-sharov-mb-ks-2-2k.jpg');
+}
+.loadbar {
+    width: 100%;
+    background-color: #001536;
+    height: 20px;
+
+    margin-left: 2px;
+    margin-right: 3px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+
+.progressBar {
+    width: 10%;
+    background-color: #002663;
+    height: 20px;
+
+    position: absolute;
+    left: 10%;
+}
