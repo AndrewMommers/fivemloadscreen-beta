@@ -11,5 +11,6 @@ files {
     'html/index.html',
     'html/main.css',
     'html/main.js',
-    'mikhail-sharov-mb-ks-2-2k.jpg'
+    'html/mikhail-sharov-mb-ks-2-2k.jpg',
+    'html/song.mp3'
 }
