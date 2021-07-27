@@ -1,12 +1,23 @@
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" media="screen" href="main.css"
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" media="screen" href="main.css">
     </head>
-    <body>
-        <div class="loadbar">
-            <div class="progressBar"></div>
+    <body class="bg">
+        <div class="container">
         </div>
-    <script src="main.js"></script>
+        <div id="audio">
+            <audio controls loop autoplay hidden id="myaudio">
+                <source src="song.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <div class="loadbar">
+        <div class="progressBar"></div>
+        </div>
+        <script src="main.js"></script>
+        <script>
+            var audio = document.getElementById("myaudio");
+            audio.volume = 0.1;
+        </script>
     </body>
 </html>
